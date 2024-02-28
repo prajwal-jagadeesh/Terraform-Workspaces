@@ -2,7 +2,6 @@ module "ec2" {
   source            = "./modules/ec2"
   ami               = var.ami
   instance_type     = var.instance_type
-  security_group_id = module.sg.security_group_id
 }
 
 module "sg" {

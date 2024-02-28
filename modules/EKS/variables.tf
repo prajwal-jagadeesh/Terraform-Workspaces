@@ -1,5 +1,5 @@
 variable "security_group_id" {
-    description = "Security Group"
+  description = "Security Group"
 }
 
 variable "subnet_ids" {
