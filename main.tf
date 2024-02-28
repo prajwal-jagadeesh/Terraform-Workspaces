@@ -11,6 +11,7 @@ module "sg" {
   http_port  = var.http_port
   https_port = var.https_port
   protocol   = var.protocol
+  vpc_id     = module.EKS-VPC.VPC_id
 }
 
 module "EKS-VPC" {

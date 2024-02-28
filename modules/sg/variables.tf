@@ -13,3 +13,7 @@ variable "https_port" {
 variable "protocol" {
   description = "protocol"
 }
+
+variable "vpc_id" {
+  description = "vpc_id"
+}
