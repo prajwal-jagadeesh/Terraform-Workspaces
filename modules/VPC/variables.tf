@@ -1,27 +1,3 @@
-variable "ami" {
-  description = "AMI of EC2"
-}
-
-variable "instance_type" {
-  description = "intance type of EC2"
-}
-
-variable "ssh_port" {
-  description = "ssh port for EC2 SG"
-}
-
-variable "http_port" {
-  description = "http_port for EC2 SG"
-}
-
-variable "https_port" {
-  description = "https_port for EC2 SG"
-}
-
-variable "protocol" {
-  description = "protocol for security inbound rules"
-}
-
 variable "vpc_cidr" {
   description = "vpc_cidr"
 }

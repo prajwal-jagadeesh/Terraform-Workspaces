@@ -4,6 +4,6 @@ resource "aws_instance" "ec2"{
     security_groups = [var.security_group_id]
 
     tags = {
-        "Name" = "mywebserver-${terraform.workspace}"
+        Name = "mywebserver-${terraform.workspace}"
     }
 }
